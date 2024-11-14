@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCH1MDPkbMkk4i19isNWFcc4urZ8HIXFAQ",
-  authDomain: "quiz-zone-eabbf.firebaseapp.com",
-  projectId: "quiz-zone-eabbf",
-  storageBucket: "quiz-zone-eabbf.appspot.com",
-  messagingSenderId: "18718187190",
-  appId: "1:18718187190:web:c992203af18fc2be7b9017",
-  measurementId: "G-HWCS7XBWC2",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
