@@ -21,7 +21,7 @@ Smooth Transitions: Interactive animations and responsive design for a seamless 
 
 Check out the live version here: [Quiz Zone Live](https://myquizzone.vercel.app/)
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: Javascript, React, TailwindCSS
 
@@ -53,10 +53,10 @@ Review Your Results: View a detailed summary of your answers, score, and correct
 
 ## 📈 Future Improvements
 
-Realtime Quiz on Multiple devices 📱:
+**Realtime Quiz on Multiple devices 📱**:
  In this feature one user can create a custamized quiz and share the unique like with other user so they can give the quiz in Realtime. This feature will be implemented using Firebase.
 
-AI Powered Quizes on any topic 🤖 : an advaned section where user can prompt AI to create a prosonalized Quiz on any topic, AI will create a curated quiz based on the users prompt.
+**AI Powered Quizes on any topic 🤖** : an advaned section where user can prompt AI to create a prosonalized Quiz on any topic, AI will create a curated quiz based on the users prompt.
 
 ## 📝 License
 
